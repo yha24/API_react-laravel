@@ -43,7 +43,7 @@ Route::middleware('auth:api')->get('/user', function (Request $request) {
 	Route::post('/upload-image',[APIController::class,'uploadImage']);									
 		
 	
-	Route::get('/get-productTiki',[LazadaController::class,'getProductLazada']);										
+	Route::get('/get-producttikis',[LazadaController::class,'getProductLazada']);										
     Route::post('/add-productTiki',[LazadaController::class,'addProductLazada']);
 	// Route::put('/edit-productLazada/{id}',[LazadaControllerr::class,'editProductLazada']);									
 										
